@@ -1,4 +1,7 @@
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffd2c4;
+    background-color: #ff7e5f;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -10,13 +13,13 @@ body{
    padding: 0.8rem 1rem;
 }
 .navbar a{
-    color: white !important;
+    color: rgb(30, 22, 22) !important;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .navbar a:hover{
-    color: #ffecd2 !important;
+    color: #a87f45 !important;
 }
 
 .navbar-brand{
@@ -234,7 +237,7 @@ body{
 
     .btn-contact{
         background-color: azure;
-        color: white;
+        color: rgb(87, 19, 19);
         padding: 10px 25px;
         border-radius: 30px;
         border: none;
@@ -242,7 +245,7 @@ body{
     }
 
     .btn-contact:hover{
-        background-color: white;
+        background-color: rgb(219, 77, 77);
         transform: translateY(-3px);
     }
 
